@@ -1,0 +1,113 @@
+body{
+    font-family:"outfit", "san-serif";
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+    font-family: "young serif", "san-serif";
+    font-weight: 400;
+}
+h2{
+    font-family: "young serif", "san-serif";
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+h3{
+    margin: 0px;
+    color: hsl(332, 51%, 32%);
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 50px;
+}
+.maincontainer{
+    max-width: 700px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 10px;
+}
+.preparationtime{
+    background-color: hsl(330, 100%, 98%);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.preparationtimelist{
+    color: hsl(30, 10%, 34%)
+}
+.preparationtimelist li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.ingredientslist{
+
+}
+.ingredientslist li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.instructionslist li::marker{
+    color:hsl(14, 45%, 36%)
+}
+.attribution{
+    
+}
+
+/*modern reset stylesheet*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+textarea:not([rows]) {
+  min-height: 10em;
+}
+:target {
+  scroll-margin-block: 5ex;
+}
