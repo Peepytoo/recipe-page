@@ -23,17 +23,20 @@ h3{
     align-items: center;
     justify-content: center;
     flex: 1;
-    padding: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .maincontainer{
     max-width: 700px;
     background-color: white;
     padding: 35px;
     border-radius: 10px;
-
 }
 img{
     border-radius: 10px;
+}
+.description{
+    color: hsl(30, 10%, 34%);
 }
 .preparationtime{
     background-color: hsl(330, 100%, 98%);
@@ -42,22 +45,32 @@ img{
     margin-top: 25px;
 }
 .preparationtimelist{
-    color: hsl(30, 10%, 34%)
+    color: hsl(30, 10%, 34%);
 }
 .preparationtimelist li::marker{
     color: hsl(332, 51%, 32%);
+    font-size: 0.7rem;
+    line-height: 2rem;
 }
 .ingredientslist{
-
+    color: hsl(30, 10%, 34%);
 }
 .ingredientslist li::marker{
     color: hsl(14, 45%, 36%);
+    line-height: 2rem;
+    font-size: 0.7rem;
+}
+.instructionslist{
+    line-height: 1.8rem;
+    color: hsl(30, 10%, 34%);
 }
 .instructionslist li::marker{
-    color:hsl(14, 45%, 36%)
+    color:hsl(14, 45%, 36%);
+    line-height: 2rem;
+    font-weight: 700;
 }
-.attribution{
-    
+.nutritiondescription{
+    color: hsl(30, 10%, 34%);
 }
 
 /*modern reset stylesheet*/
